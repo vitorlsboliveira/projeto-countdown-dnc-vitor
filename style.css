@@ -1,0 +1,30 @@
+:root {
+	--preto-dnc: rgb(48, 48, 48);
+	--branco-dnc: rgb(239, 235, 228);
+	--azul-dnc: rgb(12, 112, 242);
+	--font-padrao: 'verdana';
+}
+
+body {
+	background-color: var(--preto-dnc);
+	color: var(--branco-dnc);
+	text-align: center;
+	font-family: var(--font-padrao);
+}
+
+header {
+	display: grid;
+	grid-auto-flow: column;
+	grid-auto-columns: 33vw;
+}
+
+#logo {
+	width: 100px;
+	margin: 10px 20px 10px 20px;
+}
+
+.timer {
+	display: grid;
+	grid-auto-flow: column;
+	margin-top: 20px;
+}
